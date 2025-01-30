@@ -8,7 +8,7 @@ router.post("/signup", signup); // Signup route
 router.post("/login", login);   // Login route
 router.post("/logout", logout); // Logout route
 
-router.put("/update-profile", protectRoute, updateProfile); // Protected update-profile route
+router.put("/update-profile", protectRoute, updateProfile); // Protected update-profile route 
 
 router.get("/check", protectRoute, checkAuth); // Protected checkAuth route
 
